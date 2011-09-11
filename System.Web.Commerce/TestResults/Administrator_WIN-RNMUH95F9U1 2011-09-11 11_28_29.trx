@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa99f9fb-302f-4bbc-b435-0dab8606896b" name="Administrator@WIN-RNMUH95F9U1 2011-09-11 11:28:29" runUser="WIN-RNMUH95F9U1\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b356ad35-6e09-43b5-a51a-d3482c61513e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Projects\Urbana\Commerce\System.Web.Commerce\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_WIN-RNMUH95F9U1 2011-09-11 11_28_29">
+      <DeploymentItem filename="C:\Projects\Urbana\Commerce\System.Web.Commerce\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\System.Web.Commerce.Data.dll" />
+      <DeploymentItem filename="C:\Projects\Urbana\Commerce\System.Web.Commerce\Dependencies\Common.Types.Schema.dll" />
+      <DeploymentItem filename="C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\System.Web.Commerce.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-11T11:28:29.1265859-04:00" queuing="2011-09-11T11:28:29.3179922-04:00" start="2011-09-11T11:28:29.3306875-04:00" finish="2011-09-11T11:28:32.2320547-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Product_InsertTest" storage="c:\projects\urbana\commerce\system.web.commerce\system.web.commerce.data.tests\bin\debug\system.web.commerce.data.tests.dll" id="106d96df-1076-bcf3-6241-6ba6729b6e5e">
+      <Execution id="ded8b503-cca7-4966-aea7-ae3a78ea0f83" />
+      <TestMethod codeBase="C:/Projects/Urbana/Commerce/System.Web.Commerce/System.Web.Commerce.Data.Tests/bin/Debug/System.Web.Commerce.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.Web.Commerce.Data.Tests.ContextTests, System.Web.Commerce.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Product_InsertTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="106d96df-1076-bcf3-6241-6ba6729b6e5e" executionId="ded8b503-cca7-4966-aea7-ae3a78ea0f83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ded8b503-cca7-4966-aea7-ae3a78ea0f83" testId="106d96df-1076-bcf3-6241-6ba6729b6e5e" testName="Product_InsertTest" computerName="WIN-RNMUH95F9U1" duration="00:00:00.8193189" startTime="2011-09-11T11:28:29.3336172-04:00" endTime="2011-09-11T11:28:30.6646719-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ded8b503-cca7-4966-aea7-ae3a78ea0f83">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method System.Web.Commerce.Data.Tests.ContextTests.Product_InsertTest threw exception: 
+System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+	System.Data.Edm.EdmEntityType: BaseType: A cycle was detected in the type hierarchy of 'System.Web.Commerce.Data.Product'.
+</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer)
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at System.Web.Commerce.Data.Tests.ContextTests.Product_InsertTest() in C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\ContextTests.cs:line 64
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

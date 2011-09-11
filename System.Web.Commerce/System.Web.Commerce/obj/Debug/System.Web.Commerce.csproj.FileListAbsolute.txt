@@ -1,0 +1,5 @@
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\System.Web.Commerce.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\System.Web.Commerce.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\System.Web.Commerce.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\System.Web.Commerce.pdb
