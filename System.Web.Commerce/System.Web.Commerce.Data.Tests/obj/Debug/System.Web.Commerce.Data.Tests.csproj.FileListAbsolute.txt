@@ -2,8 +2,6 @@ C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\b
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\System.Web.Commerce.Data.Tests.pdb
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\Common.Types.Schema.dll
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\EntityFramework.dll
-C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\System.Web.Commerce.dll
-C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\System.Web.Commerce.pdb
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\bin\Debug\EntityFramework.xml
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data.Tests\obj\Debug\System.Web.Commerce.Data.Tests.dll

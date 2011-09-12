@@ -64,18 +64,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\cim.xslt" />
+    <Content Include="Resources\cim_sample.xslt" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\System.Web.Commerce.Data\System.Web.Commerce.Data.csproj">
       <Project>{93D8354D-C473-4DC9-92D2-419E65CD1388}</Project>
       <Name>System.Web.Commerce.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\System.Web.Commerce\System.Web.Commerce.csproj">
-      <Project>{24C164EB-8C6E-4BB2-AF39-61D680700ECE}</Project>
-      <Name>System.Web.Commerce</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\cim.xslt" />
-    <Content Include="Resources\cim_sample.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

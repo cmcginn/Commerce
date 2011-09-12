@@ -9,3 +9,5 @@ C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Mi
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.Hosting.dll
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.Tools.TextTemplate.dll
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.WindowsAzure.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\System.Web.Commerce.Data.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\System.Web.Commerce.Data.pdb

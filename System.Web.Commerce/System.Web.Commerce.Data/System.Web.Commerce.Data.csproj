@@ -62,18 +62,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="ContactPoint.cs" />
+    <Compile Include="ContactPointType.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="IAddress.cs" />
+    <Compile Include="ICustomer.cs" />
+    <Compile Include="IOffer.cs" />
+    <Compile Include="IProduct.cs" />
+    <Compile Include="IProductCategory.cs" />
+    <Compile Include="IShoppingCart.cs" />
+    <Compile Include="IShoppingCartItem.cs" />
+    <Compile Include="ISupportsPersistance.cs" />
+    <Compile Include="ItemAvailability.cs" />
+    <Compile Include="ItemCondition.cs" />
+    <Compile Include="Offer.cs" />
+    <Compile Include="PhoneNumber.cs" />
+    <Compile Include="PostalAddress.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
+    <Compile Include="ProductOffer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CodeFirstStoredProcedures.pdf" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\System.Web.Commerce\System.Web.Commerce.csproj">
-      <Project>{24C164EB-8C6E-4BB2-AF39-61D680700ECE}</Project>
-      <Name>System.Web.Commerce</Name>
-    </ProjectReference>
+    <Compile Include="ShoppingCart.cs" />
+    <Compile Include="ShoppingCartItem.cs" />
+    <Compile Include="XslTransformation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\AssociatedEntitiesDataSource.js" />
@@ -92,6 +106,11 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\LocalDataSource.js" />
     <Content Include="Scripts\RemoteDataSource.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CodeFirstStoredProcedures.pdf" />
+    <None Include="packages.config" />
+    <None Include="System.Web.Commerce.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
