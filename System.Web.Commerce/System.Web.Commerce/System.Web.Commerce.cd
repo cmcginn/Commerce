@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="System.Web.Commerce.Offer">
-    <Position X="0.75" Y="4.75" Width="1.5" />
+    <Position X="0.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAgAAASCAAAAAAAABAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Offer.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.Web.Commerce.Product">
-    <Position X="5.75" Y="4.75" Width="1.5" />
+    <Position X="6.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgCAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAABAAA=</HashCode>
       <FileName>Product.cs</FileName>
@@ -17,7 +17,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="System.Web.Commerce.ProductOffer">
-    <Position X="3.5" Y="5.75" Width="1.5" />
+    <Position X="3.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ProductOffer.cs</FileName>
@@ -28,46 +28,151 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="System.Web.Commerce.ISupportsPersistance">
-    <Position X="7" Y="0.5" Width="1.5" />
+  <Class Name="System.Web.Commerce.ProductCategory">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ProductCategory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Commerce.PostalAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAggAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PostalAddress.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Web.Commerce.PhoneNumber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAAAAAAAAAGAAAAAQAAACAAAAAAAAA=</HashCode>
+      <FileName>PhoneNumber.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Web.Commerce.ContactPoint">
+    <Position X="6.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContactPoint.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contact" />
+      <Property Name="ContactPointType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Commerce.Contact">
+    <Position X="3.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAEAAQAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Commerce.ShoppingCart">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contact" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.Commerce.ShoppingCartItem" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAIAA=</HashCode>
+      <FileName>ShoppingCartItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="System.Web.Commerce.ISupportsPersistance" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ISupportsPersistance.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="System.Web.Commerce.IProduct">
-    <Position X="5.25" Y="2.5" Width="1.5" />
+  <Interface Name="System.Web.Commerce.IProduct" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAABAAA=</HashCode>
       <FileName>IProduct.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="System.Web.Commerce.IPostalAddress">
-    <Position X="9.25" Y="0.5" Width="1.5" />
+  <Interface Name="System.Web.Commerce.IPostalAddress" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAggAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAABA=</HashCode>
       <FileName>IAddress.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="System.Web.Commerce.IOffer">
-    <Position X="3.25" Y="2.5" Width="1.5" />
+  <Interface Name="System.Web.Commerce.IOffer" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAASCAAAAAAAABAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IOffer.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="System.Web.Commerce.ItemAvailability">
-    <Position X="10.75" Y="3.5" Width="1.5" />
+  <Interface Name="System.Web.Commerce.ICategory" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>IProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Web.Commerce.IShoppingCartItem">
+    <Position X="3.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAIAA=</HashCode>
+      <FileName>IShoppingCartItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductOffer" />
+      <Property Name="ShoppingCart" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="System.Web.Commerce.IContact" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEAAQAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>ICustomer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Web.Commerce.IShoppingCart" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="System.Web.Commerce.ItemAvailability" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAACAAAAAAAAAEAAAAAAAAAAAAACAAAAAAEQIAA=</HashCode>
       <FileName>ItemAvailability.cs</FileName>
     </TypeIdentifier>
   </Enum>
-  <Enum Name="System.Web.Commerce.ItemCondition">
-    <Position X="9" Y="3.5" Width="1.5" />
+  <Enum Name="System.Web.Commerce.ItemCondition" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAAGAAEAAAA=</HashCode>
       <FileName>ItemCondition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Web.Commerce.ContactPointType">
+    <Position X="9.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAUCAAAAAgAAAAAAAAAAAAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ContactPointType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Tahoma" Size="8.25" />

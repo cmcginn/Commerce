@@ -7,3 +7,7 @@ C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Deb
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\EntityFramework.xml
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\obj\Debug\System.Web.Commerce.Data.dll
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\obj\Debug\System.Web.Commerce.Data.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\Microsoft.ServiceModel.DomainServices.EntityFramework.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\Microsoft.ServiceModel.DomainServices.Hosting.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\Microsoft.ServiceModel.DomainServices.Tools.TextTemplate.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Data\bin\Debug\Microsoft.ServiceModel.DomainServices.WindowsAzure.dll

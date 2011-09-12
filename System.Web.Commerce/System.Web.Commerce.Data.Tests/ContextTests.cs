@@ -58,6 +58,7 @@ namespace System.Web.Commerce.Data.Tests {
     #endregion
 
     [TestMethod]
+    [DeploymentItem("Resources\\cim.xslt")]
     public void Product_InsertTest() {
       //Arrange
       var product = new Product();

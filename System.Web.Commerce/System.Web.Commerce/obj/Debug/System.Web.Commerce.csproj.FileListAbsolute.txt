@@ -3,3 +3,9 @@ C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Sy
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\System.Web.Commerce.dll
 C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\obj\Debug\System.Web.Commerce.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\EntityFramework.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\EntityFramework.xml
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.EntityFramework.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.Hosting.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.Tools.TextTemplate.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce\bin\Debug\Microsoft.ServiceModel.DomainServices.WindowsAzure.dll

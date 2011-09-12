@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce", "System.Web.Commerce\System.Web.Commerce.csproj", "{24C164EB-8C6E-4BB2-AF39-61D680700ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Data", "System.Web.Commerce.Data\System.Web.Commerce.Data.csproj", "{93D8354D-C473-4DC9-92D2-419E65CD1388}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Data.Tests", "System.Web.Commerce.Data.Tests\System.Web.Commerce.Data.Tests.csproj", "{6262958E-63FA-41E6-864B-C88878AAAA76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E50542B-D44A-4B0A-9AE0-8F1A42F4303A}"
@@ -13,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		System.Web.Commerce.vsmdi = System.Web.Commerce.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Gateways", "System.Web.Commerce.Gateways\System.Web.Commerce.Gateways.csproj", "{286FCA45-CE28-4F2F-86DF-9F7E64DD01F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Data", "System.Web.Commerce.Data\System.Web.Commerce.Data.csproj", "{93D8354D-C473-4DC9-92D2-419E65CD1388}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -27,14 +29,18 @@ Global
 		{24C164EB-8C6E-4BB2-AF39-61D680700ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C164EB-8C6E-4BB2-AF39-61D680700ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C164EB-8C6E-4BB2-AF39-61D680700ECE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6262958E-63FA-41E6-864B-C88878AAAA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6262958E-63FA-41E6-864B-C88878AAAA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6262958E-63FA-41E6-864B-C88878AAAA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6262958E-63FA-41E6-864B-C88878AAAA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286FCA45-CE28-4F2F-86DF-9F7E64DD01F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286FCA45-CE28-4F2F-86DF-9F7E64DD01F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286FCA45-CE28-4F2F-86DF-9F7E64DD01F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286FCA45-CE28-4F2F-86DF-9F7E64DD01F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D8354D-C473-4DC9-92D2-419E65CD1388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

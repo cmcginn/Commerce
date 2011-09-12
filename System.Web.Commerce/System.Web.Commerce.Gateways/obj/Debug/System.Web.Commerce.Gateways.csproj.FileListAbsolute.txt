@@ -1,0 +1,5 @@
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Gateways\bin\Debug\System.Web.Commerce.Gateways.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Gateways\bin\Debug\System.Web.Commerce.Gateways.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Gateways\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Gateways\obj\Debug\System.Web.Commerce.Gateways.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Gateways\obj\Debug\System.Web.Commerce.Gateways.pdb
