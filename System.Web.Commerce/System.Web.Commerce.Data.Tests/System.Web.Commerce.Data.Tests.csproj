@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CodeFirstStoredProcs, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Common.Types.Schema">
       <HintPath>..\Dependencies\Common.Types.Schema.dll</HintPath>
     </Reference>
@@ -45,6 +46,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
@@ -61,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="CodeFirstStoredProcedures.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

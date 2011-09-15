@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace System.Web.Commerce.Data {
-  public interface IShoppingCartItem {
+  public interface IShoppingCartItem : ISupportsPersistance {
     ProductOffer ProductOffer {
       get;
       set;

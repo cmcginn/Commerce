@@ -35,6 +35,23 @@ namespace System.Web.Commerce.Data.Tests {
       };
       return result;
     }
+    public static Contact CreateNewContact( string first, string last ) {
+      var result = new Contact {
+        Created = System.DateTime.Now,
+        FirstName = first,
+        LastName = last,
+        IsActive = true,
+        Id = Guid.NewGuid()
+      };
+      return result;
+    }
+    public static List<Contact> CreateNewContacts() {
+      var result = new List<Contact>();
+      result.Add( CreateNewContact( "John", "Doe" ) );
+      result.Add( CreateNewContact( "Jane", "Doe" ) );
+      result.Add( CreateNewContact( "James", "Smith" ) );
+      return result;
+    }
     public static XslTransformation CreateNewXslTransformation() {
       var content = System.Xml.Linq.XDocument.Load( AppDomain.CurrentDomain.BaseDirectory + "\\cim.xslt" );
       var result = new XslTransformation {
@@ -87,6 +104,7 @@ namespace System.Web.Commerce.Data.Tests {
       var products = CreateNewProducts();
       var offers = CreateNewOffers();
       var categories = CreateNewCategories();
+      var contacts = CreateNewContacts();
       //Relationships
 
       List<ProductOffer> productOffers = new List<ProductOffer>();
@@ -98,6 +116,7 @@ namespace System.Web.Commerce.Data.Tests {
       //save to db
       using( Context context = new Context() ) {
         context.XslTransformations.Add( CreateNewXslTransformation() );
+        contacts.ForEach( n => context.Contacts.Add( n ) );
         products.ForEach( n => context.Products.Add( n ) );
         offers.ForEach( n => context.Offers.Add( n ) );
         productOffers.ForEach( n => context.ProductOffers.Add( n ) );

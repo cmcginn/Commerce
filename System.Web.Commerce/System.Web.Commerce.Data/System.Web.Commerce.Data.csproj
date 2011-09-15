@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CodeFirstStoredProcs">
+      <HintPath>bin\CodeFirstStoredProcs.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.4.1.10715.0\lib\EntityFramework.dll</HintPath>
     </Reference>
@@ -67,10 +70,11 @@
     <Compile Include="ContactPoint.cs" />
     <Compile Include="ContactPointType.cs" />
     <Compile Include="Context.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="Contact.cs" />
     <Compile Include="IAddress.cs" />
-    <Compile Include="ICustomer.cs" />
+    <Compile Include="IContact.cs" />
     <Compile Include="IOffer.cs" />
+    <Compile Include="IOrder.cs" />
     <Compile Include="IProduct.cs" />
     <Compile Include="IProductCategory.cs" />
     <Compile Include="IShoppingCart.cs" />
@@ -79,6 +83,7 @@
     <Compile Include="ItemAvailability.cs" />
     <Compile Include="ItemCondition.cs" />
     <Compile Include="Offer.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="PhoneNumber.cs" />
     <Compile Include="PostalAddress.cs" />
     <Compile Include="Product.cs" />
@@ -108,7 +113,6 @@
     <Content Include="Scripts\RemoteDataSource.js" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CodeFirstStoredProcedures.pdf" />
     <None Include="packages.config" />
     <None Include="System.Web.Commerce.cd" />
   </ItemGroup>

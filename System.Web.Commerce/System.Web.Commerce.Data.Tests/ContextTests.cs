@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Web.Commerce;
 using System.Web.Commerce.Data;
+using CodeFirstStoredProcs;
 namespace System.Web.Commerce.Data.Tests {
   /// <summary>
   /// Summary description for UnitTest1
@@ -66,6 +67,8 @@ namespace System.Web.Commerce.Data.Tests {
       product.Name = "Crabs";
       using( Context context = new Context() ) {
         context.Products.Add( product );
+       // var productParames = new AddNewProductParameters { Name = "Horses" };
+        //var result = context.CallStoredProc<AddNewProductParameters>( context.AddNewProduct, productParames );
         context.SaveChanges();
       }
       //Act
