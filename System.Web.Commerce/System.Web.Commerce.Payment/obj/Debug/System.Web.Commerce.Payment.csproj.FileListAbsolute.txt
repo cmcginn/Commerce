@@ -1,0 +1,10 @@
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\System.Web.Commerce.Payment.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\System.Web.Commerce.Payment.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\Common.Utils.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\System.Web.Commerce.Data.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\EntityFramework.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\System.Web.Commerce.Data.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\bin\Debug\EntityFramework.xml
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\obj\Debug\System.Web.Commerce.Payment.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment\obj\Debug\System.Web.Commerce.Payment.pdb

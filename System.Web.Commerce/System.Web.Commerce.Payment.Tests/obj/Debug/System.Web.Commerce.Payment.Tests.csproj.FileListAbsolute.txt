@@ -1,0 +1,5 @@
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment.Tests\bin\Debug\System.Web.Commerce.Payment.Tests.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment.Tests\bin\Debug\System.Web.Commerce.Payment.Tests.pdb
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment.Tests\obj\Debug\System.Web.Commerce.Payment.Tests.dll
+C:\Projects\Urbana\Commerce\System.Web.Commerce\System.Web.Commerce.Payment.Tests\obj\Debug\System.Web.Commerce.Payment.Tests.pdb

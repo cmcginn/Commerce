@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Tests", "System.Web.Commerce.Tests\System.Web.Commerce.Tests.csproj", "{6476E383-82F0-4569-AB7B-75B60EB5358D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Payment", "System.Web.Commerce.Payment\System.Web.Commerce.Payment.csproj", "{1B17CF75-7E9C-4DEB-A3AB-A2C51FE4B924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web.Commerce.Payment.Tests", "System.Web.Commerce.Payment.Tests\System.Web.Commerce.Payment.Tests.csproj", "{AEBF287D-377D-4E17-8DA1-B152AA69DCEE}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = System.Web.Commerce.vsmdi
@@ -47,6 +51,14 @@ Global
 		{6476E383-82F0-4569-AB7B-75B60EB5358D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6476E383-82F0-4569-AB7B-75B60EB5358D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6476E383-82F0-4569-AB7B-75B60EB5358D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B17CF75-7E9C-4DEB-A3AB-A2C51FE4B924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B17CF75-7E9C-4DEB-A3AB-A2C51FE4B924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B17CF75-7E9C-4DEB-A3AB-A2C51FE4B924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B17CF75-7E9C-4DEB-A3AB-A2C51FE4B924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBF287D-377D-4E17-8DA1-B152AA69DCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBF287D-377D-4E17-8DA1-B152AA69DCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBF287D-377D-4E17-8DA1-B152AA69DCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBF287D-377D-4E17-8DA1-B152AA69DCEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
